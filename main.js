@@ -85,8 +85,8 @@ bot.on('message', function (message) {
                 });
                 res.on('end', function (res) {
                     message.channel.send(JSON.parse(data)[0]['jpeg_url']);
-                })
-            })
+                });
+            });
         }
     } else if (message.content.startsWith(prefix)) {
         message.channel.send('Please use a NSFW channel, there are children here');
