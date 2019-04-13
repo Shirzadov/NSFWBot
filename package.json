@@ -1,0 +1,27 @@
+{
+  "name": "nsfwbot",
+  "version": "1.0.0",
+  "description": "A Discord bot that provides NSFW pictures",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDevKiller/NSFWBotJS.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "nsfw"
+  ],
+  "author": "TheDevKiller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDevKiller/NSFWBotJS/issues"
+  },
+  "homepage": "https://github.com/TheDevKiller/NSFWBotJS#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
