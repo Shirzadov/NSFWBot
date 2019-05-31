@@ -2,7 +2,9 @@
 A Discord bot which provides NSFW images
 
 # Run the bot
-You can run the bot by doing `node main.js`
+
+- Create the file `token`, put your Discord token in this file
+- Run `node main.js`
 
 # Installation
 This part explains you how to make the bot run as boot
