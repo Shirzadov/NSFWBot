@@ -7,7 +7,7 @@ A Discord bot which provides NSFW images
 - Run `node main.js`
 
 # Installation
-This part explains you how to make the bot run as boot
+This part explains you how to make the bot run at boot
 
 It is **only for systemd**
 
