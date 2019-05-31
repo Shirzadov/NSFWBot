@@ -1,4 +1,16 @@
 # NSFWBot
 A Discord bot which provides NSFW images
 
-You can run the bot by doing `node main.js` and you can copy the .service file in `/lib/systemd/system/` so you can do `# systemctl enable nsfwbot` to run it at boot (**systemd only**). If you do that, you also need to mv this folder in /opt
+# Run the bot
+You can run the bot by doing `node main.js`
+
+# Installation
+This part explains you how to make the bot run as boot
+
+It is **only for systemd**
+
+- Copy this folder (NSFWBot) in `/opt`
+- Copy nsfwbot.service in `/lib/systemd/system/`
+- Run `# systemctl enable nsfwbot`
+
+The bot should now start with your computer :)
