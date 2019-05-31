@@ -1,0 +1,14 @@
+[Unit]
+Description=NSFWBot
+
+[Service]
+WorkingDirectory=/opt/NSFWBot
+ExecStart=/usr/bin/node main.js
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=NSFWBot
+
+[Install]
+WantedBy=multi-user.target
